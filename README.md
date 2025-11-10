@@ -7,6 +7,8 @@ We'll fine tune an LLM once per category and evaluate the joint likelihood of a 
 
 
 
+Plan:
+
 1) Choose an LLM to finetune
   Llama 3.2 1B (NOT INSTRUCT)
 
@@ -19,3 +21,14 @@ We'll fine tune an LLM once per category and evaluate the joint likelihood of a 
 5) Use 3) to calculate P(text | class) for each class where each class is a model
 
 6) Use 5) and Bayes to get the probability of the labels
+
+
+Done till now:
+
+Script that loads Llama and evaluates next token logits.
+
+Next:
+
+1) Shift logits to logprobs
+
+2) Recover logprobs for all inputed tokens
