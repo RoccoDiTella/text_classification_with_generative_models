@@ -8,6 +8,7 @@ We'll fine tune an LLM once per category and evaluate the joint likelihood of a 
 
 
 1) Choose an LLM to finetune
+  Llama 3.2 1B (NOT INSTRUCT)
 
 2) Generate a synthetic dataset to fine-tune on
 
