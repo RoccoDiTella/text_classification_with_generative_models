@@ -13,8 +13,8 @@ Plan:
   Llama 3.2 1B (NOT INSTRUCT)
 
 2) Pipeline to evaluate log-probs of a given text
-  Done
-  TODO: broadcasting
+
+  TODO: There are two implementations now: ugly human for loop and sleek chatgpt vectors
 
 3) Generate a synthetic dataset to fine-tune on
 
