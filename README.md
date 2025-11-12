@@ -13,6 +13,8 @@ Plan:
   Llama 3.2 1B (NOT INSTRUCT)
 
 2) Pipeline to evaluate log-probs of a given text
+  Done
+  TODO: broadcasting
 
 3) Generate a synthetic dataset to fine-tune on
 
@@ -32,3 +34,7 @@ Next:
 1) Shift logits to logprobs
 
 2) Recover logprobs for all inputed tokens
+
+----
+
+
